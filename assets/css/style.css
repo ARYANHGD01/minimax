@@ -300,6 +300,7 @@ nav a {transition: .5s;}
   overflow: hidden;
   max-height: 460px;
   object-fit: cover;
+  height: 100%;
 }
 
 .banner .wrapper {
@@ -779,10 +780,16 @@ footer .hidden-text {margin: 65px auto 0;}
     margin-bottom: 18px;
   }
 
+  .banner { height: 90vh; }
+
   .banner-button {
     font-size: 14px;
     margin-top: 20px;
   }
+
+  .banner-background { height: 100%; }
+
+  .banner-background img { max-height: max-content; }
 
   .workflow { padding: 90px 0 60px;}
 
